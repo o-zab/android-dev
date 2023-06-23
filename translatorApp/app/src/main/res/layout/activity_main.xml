@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Translator App"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Family"
+            android:layout_margin="8dp"
+            android:background="@color/blue"
+            android:textSize="32sp"
+            android:id="@+id/family"
+            android:padding="16dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Numbers"
+            android:layout_margin="8dp"
+            android:background="@color/green"
+            android:textSize="32sp"
+            android:id="@+id/number"
+            android:padding="16dp"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Colours"
+            android:layout_margin="8dp"
+            android:background="@color/pink"
+            android:textSize="32sp"
+            android:id="@+id/color"
+            android:padding="16dp"
+            android:gravity="center"
+
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Phrases"
+            android:layout_margin="8dp"
+            android:background="@color/yellow"
+            android:textSize="32sp"
+            android:id="@+id/phrase"
+            android:padding="16dp"
+            android:gravity="center"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
